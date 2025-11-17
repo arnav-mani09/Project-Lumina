@@ -5,38 +5,143 @@
       <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <img src="images/logo.png" alt="Project Lumina Logo" width="100"/>
-    <button class="learn">Get to Learning!</button>
-    <header style="text-align: center;">
-      <h1>Project Lumina</h1>
-      <p>Lighting paths to learning — free tutoring for underserved students</p>
-    </header>
+    <div class = "kenji">
+      img src="images/kenji.png" alt="Kenji the Robot Mascot" class="kenji-image"/>
+    </div>
+    <div class="page-wrapper">
+      <div class="colorbar">
+        <div class="colorbar-left">
+          <img src="images/logo.png" alt="Project Lumina Logo" class="logo"/>
+          <button class="learn">Get to Learning!</button>
+        </div>
+        <header class="site-title" style="color: white;">
+          <h1>Project Lumina</h1>
+        </header>
+        <div class="auth-buttons">
+          <button class="auth-button login">Login</button>
+          <button class="auth-button signup">Sign Up</button>
+        </div>
+      </div>
 
-    <main>
-      <section id="about">
-        <h3><br>About Us</h3>
-        <p>Project Lumina is dedicated to providing free tutoring services to underserved students, helping them achieve academic success and build confidence in their abilities.</p>
+      <main>
+      <div class="about">
+        <h3><br>Free enrichment starts today</h3>
+        <p>Project Lumina is dedicated to providing free tutoring services to 
+          underserved students, helping them achieve academic success and build confidence in their abilities.                                      
+        </p>
+        <button class ="about-us-button">About Us</button>
+        <p style="color: #f0f0f0;">jordan likes kids</p>
+      </div>
+
+      <!--<div class="reviews">
+        <img src="images/stars.png" alt="Reviews placeholder" />
+      </div>-->
+
+      <section class="info-section how-it-works">
+        <h2>How It Works</h2>
+        <div class="card-grid">
+          <article class="card step-card">
+            <div class="card-media"></div>
+            <h3></h3>
+            <p></p>
+          </article>
+          <article class="card step-card">
+            <div class="card-media"></div>
+            <h3></h3>
+            <p></p>
+          </article>
+          <article class="card step-card">
+            <div class="card-media"></div>
+            <h3></h3>
+            <p></p>
+          </article>
+        </div>
       </section>
-      <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-          <li>One-on-one tutoring sessions</li>
-          <li>Group study workshops</li>
-          <li>Test preparation assistance</li>
-          <li>Homework help</li>
-        </ul>
+
+      <section class="info-section subjects">
+        <h2>Subjects</h2>
+        <div class="card-grid">
+          <article class="card subject-card">
+            <div class="card-media tall"></div>
+            <h3></h3>
+            <p></p>
+          </article>
+          <article class="card subject-card">
+            <div class="card-media tall"></div>
+            <h3></h3>
+            <p></p>
+          </article>
+          <article class="card subject-card">
+            <div class="card-media tall"></div>
+            <h3></h3>
+            <p></p>
+          </article>
+        </div>
       </section>
-      <section id="contact">
+
+      <section class="info-section testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial-grid">
+          <article class="testimonial-card">
+            <div class="quote-mark"></div>
+            <p></p>
+            <span class="attribution"></span>
+          </article>
+          <article class="testimonial-card">
+            <div class="quote-mark"></div>
+            <p></p>
+            <span class="attribution"></span>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="info-section" style="color:white;">
         <h2>Contact Us</h2>
         <p>If you're interested in our services or want to volunteer, please reach out to us at ProjectLumina@gmail.com </p>
       </section>
-      <button class ="about-us-button">About Us</button>
-    </main>
+      </main>
 
-    <footer>
-      <p>&copy; 2025 Project Lumina. All rights reserved.</p>
-    </footer>
+        <footer class="site-footer">
+          <div class="footer-columns">
+            <div class="footer-column">
+              <p class="footer-heading">Insert text here</p>
+              <span>Insert text here</span>
+              <span>Insert text here</span>
+              <span>Insert text here</span>
+            </div>
+            <div class="footer-column">
+              <p class="footer-heading">Insert text here</p>
+              <span>Insert text here</span>
+              <span>Insert text here</span>
+              <span>Insert text here</span>
+            </div>
+            <div class="footer-column">
+              <p class="footer-heading">Insert text here</p>
+              <span>Insert text here</span>
+              <span>Insert text here</span>
+              <span>Insert text here</span>
+            </div>
+            <div class="footer-column">
+              <p class="footer-heading">Insert text here</p>
+              <span>Insert text here</span>
+              <span>Insert text here</span>
+              <span>Insert text here</span>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>Insert text here © 2025 All Rights Reserved</p>
+            <div class="footer-links">
+              <span>Insert text here</span>
+              <span>Insert text here</span>
+              <span>Insert text here</span>
+              <span>Insert text here</span>
+              <span>Insert text here</span>
+              <span>Insert text here</span>
+              <span>Insert text here</span>
+            </div>
+          </div>
+        </footer>
+    </div>
     <script type="module" src="dist/main.js"></script>
-
-  </body>
+    </body>
   </html> 
